@@ -25,16 +25,12 @@ https://maureenmbithe.github.io/week3project/
 * [CSS](https://github.com/topics/css3)
 * [Bootstrap](https://github.com/topics/bootstrap)
 * [jQuery](https://github.com/topics/javascript)
-* markdown
+* markdown 
 
-
-## BDD
-
-
-## Known Bugs
+### Known Bugs
 * The site is not responsive enough for some devices. 
 
-## Contact Information 
+### Contact Information 
 
 If you have any questions or contributions, please email me at [maureenmbithe6@gmail.com]
 
