@@ -389,7 +389,7 @@ jQuery.extend( {
 			i = 0,
 			ret = [];
 
-		// Go through the array, translating each of the items to their new values
+		
 		if ( isArrayLike( elems ) ) {
 			length = elems.length;
 			for ( ; i < length; i++ ) {
@@ -400,7 +400,7 @@ jQuery.extend( {
 				}
 			}
 
-		// Go through every key on the object,
+		
 		} else {
 			for ( i in elems ) {
 				value = callback( elems[ i ], i, arg );
@@ -418,8 +418,8 @@ jQuery.extend( {
 	// A global GUID counter for objects
 	guid: 1,
 
-	// jQuery.support is not used in Core but other projects attach their
-	// properties to it so it needs to exist.
+
+
 	support: support
 } );
 
