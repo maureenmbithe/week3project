@@ -101,22 +101,22 @@ html{
   padding-top:40px;
   font-family: 'Gabriela', serif;
 }
-.contact{
+.contactus{
   background-image: url('../images/backgrounds/image\ 3.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: white;
+  color: rgb(113, 76, 76);
   /* text-align: center; */
 }
 .title{
   padding: 6px;
 }
-.contact h2{
-  text-align: center;
+.contactus h2{
+  text-align:left;
   margin-top: 30px;
   padding-top: 40px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   font-family: 'Gabriela', serif;
 }
 input[type=text],input[type=email],#comment{
@@ -127,19 +127,22 @@ input[type=text],input[type=email],#comment{
 }
 
 .form-control::-webkit-input-placeholder { 
-  color: white; 
+  color: rgb(104, 42, 42); 
 }
 #MERGE1{
   width: 30%;
   margin-left: 18%;
   margin-right: 30px;
+  text-align: left;
 }
 #MERGE0{
   width: 30%;
+
 }
 #comment{
   margin-left: 20%;
   width: 60%;
+  
 }
 button{
   margin-left: 20%;
