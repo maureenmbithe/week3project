@@ -3,15 +3,15 @@ html{
   scroll-behavior: smooth;
 }
 .landing{
-  background-image: url('../images/backgrounds/h_img.jpg');
+  background-image: url('../images/backgrounds/image\ 1.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: rgb(51, 42, 42);
+  color: white;
   text-align: center;
   padding-top:17%; 
   font-family: 'Gabriela', serif;
-  
+  /* padding-bottom:5%; */
 }
 .landing h1{
   padding: 2px;
@@ -59,8 +59,8 @@ html{
 }
 .services{
   text-align: center;
-  background-image: url("../images/backgrounds/s_image.jpg");
-  color: black;
+  background-image: url("../images/backgrounds/image\ 1.jpg");
+  color: white;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -102,11 +102,11 @@ html{
   font-family: 'Gabriela', serif;
 }
 .contact{
-  background-image: url('../images/backgrounds/c_image.jpg');
+  background-image: url('../images/backgrounds/image\ 3.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: rgb(56, 32, 32);
+  color: white;
   /* text-align: center; */
 }
 .title{
@@ -121,7 +121,7 @@ html{
 }
 input[type=text],input[type=email],#comment{
   background: transparent;
-  color: rgba(117, 93, 93, 0.906);
+  color: white;
   font-size: 20px;
   font-family: 'Copse', serif;
 }
@@ -254,6 +254,24 @@ footer p{
   }
   #portfolio{
     margin-left:10%;
+    margin-right: 10%; 
+  }
+}
+@media only screen and (min-width: 625px){
+  #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+    width: 100%;
+    height: 100%;
+    top: 20px;
+    left: 20px;
+    padding-top:20%; 
+    font-size: 26px;
+  }
+  .col-md-3 img{
+    width: 400px;
+    margin: 20px;
+  }
+  #portfolio{
+    margin-left:6%;
     margin-right: 10%; 
   }
 }
